@@ -1,0 +1,189 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(135deg, #00695c, #00897b);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #004d40;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #80cbc4;
+}
+
+
+/* Main */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* Cards */
+
+.card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+    color: #00695c;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+
+/* Image */
+
+.card img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+
+/* Lists */
+
+ul {
+    margin-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+
+/* Links */
+
+a {
+    color: #00796b;
+}
+
+.card a:hover {
+    color: #d84315;
+}
+
+
+/* CSS Example Box */
+
+.example-box {
+    background-color: #00897b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Button */
+
+button {
+    background-color: #00695c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+
+/* JavaScript Message */
+
+#message {
+    margin-top: 15px;
+    color: #00695c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .card {
+        padding: 20px;
+    }
+}
